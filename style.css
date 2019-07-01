@@ -84,6 +84,32 @@ p {
     margin: 0 0 25px
 }
 
+/* ==================================================
+Header Style 
+=====================================================*/
+.header {
+    position: absolute;
+    width: 100%;
+    background-color: #00000069;
+}
+.header-nav li a{
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.header-nav li a:hover{
+    color: #212121;
+}
+.header-nav li .hireMeBtn2{
+    display: inline-block;
+    background-color: #fff;
+    color: #212121;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    text-transform: capitalize
+}
+
 
 /* ==================================================
 Slider Section Style 
