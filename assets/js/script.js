@@ -12,4 +12,14 @@ jQuery(function ($) {
 
     }());
 
+
+    if ($('.scroll-to-target').length) {
+        $(".scroll-to-target").on('click', function () {
+            var target = $(this).attr('data-target');
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 1000);
+        });
+    }
+
 });

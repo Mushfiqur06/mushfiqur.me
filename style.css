@@ -91,6 +91,7 @@ Header Style
     position: absolute;
     width: 100%;
     background-color: #00000069;
+    z-index: 10px;
 }
 .header-nav li a{
     color: #fff;
@@ -118,6 +119,7 @@ Slider Section Style
     background-image: url('./assets/img/slider-bg-img.jpg');
     background-position: center center;
     background-size: cover;
+    position: relative;
 }
 .hero-section{
     display: flex;
@@ -171,4 +173,43 @@ Slider Section Style
 }
 .hero-content a:hover{
     transform: translateY(-5px)
+}
+
+/* ================================
+Next Section Icon Style 
+===================================*/
+.next-section-link {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin-left: -30px;
+    display: block;
+    z-index: 10;
+}
+.next-section-link span {
+    display: block;
+}
+.next-section-link span i {
+    position: relative;
+    top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+    -webkit-animation-name: drop;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: drop;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
