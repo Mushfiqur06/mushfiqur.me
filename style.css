@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #999;
+    background-color: #fff;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important
+}
+
+html {
+    font-family: 'Lato', sans-serif !important
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    font-size: 15px;
+    text-decoration: none
+}
+
+a,
+a>* {
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none
+}
+
+a:focus,
+a:hover {
+    color: #012474;
+    outline: none;
+    text-decoration: none
+}
+
+a,
+.navbar a,
+.form-control {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+ul,ol {
+    padding: 0
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #212121;
+    margin: 0 0 15px
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 22px
+}
+
+img {
+    margin: 0
+}
+
+p {
+    margin: 0 0 25px
+}
