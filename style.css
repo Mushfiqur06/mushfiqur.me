@@ -83,3 +83,66 @@ img {
 p {
     margin: 0 0 25px
 }
+
+
+/* ==================================================
+Slider Section Style 
+=====================================================*/
+.slider-section{
+    background-image: url('./assets/img/slider-bg-img.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero-content {
+    text-align: center;
+    position: relative;
+}
+.hero-content > span {
+    position: absolute;
+    left: 0;
+    top: -40px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+.hero-content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+.hero-content h4 {
+    color: #fff;
+    font-weight: 500;
+}
+.hero-content h4 span {
+    font-style: italic;
+    font-size: 18px;
+}
+.hero-content a {
+    display: inline-block;
+    background-color: #ad512d;
+    color: #fff;
+    padding: 7px 30px;
+    text-transform: capitalize;
+    margin: 20px 8px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    transform: translateX(0)
+}
+.hero-content .resumeBtn{
+    background-color: #fff;
+    color: #212121;
+}
+.hero-content a:hover{
+    transform: translateY(-5px)
+}
