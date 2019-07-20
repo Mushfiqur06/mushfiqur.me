@@ -257,3 +257,10 @@ Next Section Icon Style
         opacity: 0
     }
 }
+
+/* =======================================
+About Section Style 
+==========================================*/
+.about{
+    padding: 70px 0;
+}
