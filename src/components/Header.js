@@ -8,14 +8,14 @@ class Header extends React.Component{
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ml-auto">
+                        <Nav className="mx-auto hader-navbar">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">About Me</Nav.Link>
                             <Nav.Link href="#link">job experience</Nav.Link>
                             <Nav.Link href="#link">Portfolio</Nav.Link>
                             <Nav.Link href="#link">Skills</Nav.Link>
                             <Nav.Link href="#link">Education</Nav.Link>
-                            <Nav.Link className="hireMeBtn" href="#link">Hire Me</Nav.Link>
+                            <Nav.Link className="hireMeBtn btnStyle" href="#link">Hire Me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
