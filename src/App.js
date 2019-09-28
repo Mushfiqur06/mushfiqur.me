@@ -1,18 +1,30 @@
 import React from 'react';
 import './App.scss';
 
+// FontAwesome
+
+
 import Haders from './components/Header';
-import Slider from './components/Slider'
+import Slider from './components/Slider';
+import AboutMe from './components/About'
+
 
 function App() {
   return (
     <div className="App">
+
       <header className="header">
         <Haders />
       </header>
-      <div className="slider-section">
+
+      <section className="slider-section">
         <Slider />
-      </div>
+      </section>
+
+      <section className="about-me-section">
+        <AboutMe />
+      </section>
+
     </div>
   );
 }
