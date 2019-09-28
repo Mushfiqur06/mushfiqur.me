@@ -4,6 +4,37 @@
     color: $while-color;
     position: relative;
 
+    .slider-riangle-up {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #0b223a;
+    }
+    .slider-riangle-up-two{
+        position: absolute;
+        bottom: 30%;
+        right: 4%;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #0b223a;
+        transform: rotate(-45deg)
+    }
+    .slider-three{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 60px;
+        height: 60px;
+        background-color: #0b223a;
+        border-radius: 50%;
+    }
+
     .hero-section{
         display: flex;
         justify-content: center;

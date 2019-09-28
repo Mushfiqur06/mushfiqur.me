@@ -6,6 +6,9 @@ class Slider extends Component {
     render() { 
         return (
             <div>
+                <div className="slider-riangle-up"></div>
+                <div className="slider-riangle-up-two"></div>
+                <div className="slider-three"></div>
                 <Container>
                     <div className="hero-section">
                         <div className="hero-content">
