@@ -14,11 +14,26 @@ class About extends Component {
                     <Col md={6}>
                         <div className="about-info">
                             <p>Hi! I am a Front-End Developer, Speaker, Organizer and I'm very passionate and dedicated to my work. With 4 years experience as a professional Front-End Developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
-                            <Nav>
-                                <Nav.Item>
+                            <h4>Social Link: </h4>
+                            <Nav className="about-social-Links">
+                                <Nav.Item as="li">
                                     <Nav.Link href="https://twitter.com/mushfiqur06">
-                                       {/* <FontAwesomeIcon icon={['fa', 'twitter']} />  */}
-                                       <FontAwesomeIcon icon="check-square" />
+                                       <FontAwesomeIcon icon={['fab', 'twitter-square']} />
+                                    </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item as="li">
+                                    <Nav.Link href="https://facebook.com/mushfiqur06">
+                                       <FontAwesomeIcon icon={['fab', 'facebook-square']} />
+                                    </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item as="li">
+                                    <Nav.Link href="https://www.linkedin.com/in/mushfiqur06/">
+                                       <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                                    </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item as="li">
+                                    <Nav.Link title="Skype ID: mushfiqur06">
+                                       <FontAwesomeIcon icon={['fab', 'skype']} />
                                     </Nav.Link>
                                 </Nav.Item>
                                 
