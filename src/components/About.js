@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Row, Col, Nav} from 'react-bootstrap';
+import MyPic from './../my-pic.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -9,7 +10,9 @@ class About extends Component {
             <Container>
                 <Row>
                     <Col md={6}>
-                        <div className="author-img text-center"></div>
+                        <div className="author-img text-center">
+                            <img src={MyPic} alt="Mushfiqur Rahman Niloy"/>
+                        </div>
                     </Col>
                     <Col md={6}>
                         <div className="about-info">
