@@ -17,6 +17,7 @@
                 margin: 0 4px;
                 border-bottom: 2px solid transparent;
                 transition: all .3s ease-in-out;
+                text-transform: capitalize;
     
                 &:hover{
                     color: $primary-color !important;
@@ -29,9 +30,9 @@
                 box-shadow: 0px 4px 5px 0px rgba(34,34,34,.2);
                 font-size: 15px;
                 letter-spacing: 1.1px;
-                text-transform: uppercase;
+                text-transform: capitalize;
                 height: 40px;
-                width: 110px;
+                width: 130px;
                 text-align: center;
                 line-height: 2px;
                 font-weight: 400;

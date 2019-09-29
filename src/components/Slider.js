@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Container} from 'react-bootstrap';
-import ArrowDonwImg from './../arrow-down.svg'
+import ArrowDonwImg from './../arrow-down.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Slider extends Component {
     render() { 
@@ -15,8 +16,8 @@ class Slider extends Component {
                             <span className="hero-intro-greeting">Hello, I am</span>
                             <h1>Mushfiqur Rahman niloy</h1>
                             <h4>Senior Front End Developer <span>At Zenix Technology</span></h4>
-                            <a className="hireBtn" href="#">hire Me</a>
-                            <a className="resumeBtn" href="#">Resume</a>
+                            <a className="hireBtn" href="#"><FontAwesomeIcon icon={['fab', 'github-square']} /> Visit Github</a>
+                            <a className="resumeBtn" href="#"><FontAwesomeIcon icon={['far', 'file']} /> Download Resume</a>
                         </div>
                     </div>
                 </Container>

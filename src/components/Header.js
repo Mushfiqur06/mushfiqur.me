@@ -15,7 +15,7 @@ class Header extends React.Component{
                             <Nav.Link href="#link">Portfolio</Nav.Link>
                             <Nav.Link href="#link">Skills</Nav.Link>
                             <Nav.Link href="#link">Education</Nav.Link>
-                            <Nav.Link className="hireMeBtn btnStyle" href="#link">Hire Me</Nav.Link>
+                            <Nav.Link className="hireMeBtn btnStyle" href="#link">Contact Me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
