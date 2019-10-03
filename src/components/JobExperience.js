@@ -15,7 +15,7 @@ class JobExperience extends Component {
                 joinDate: 'February 2016',
                 leaveDate: 'March 2017',
                 info: 'Zenix Technologies is a freelancing based company. I am a team leader of Front-End team. We have an awesome Back-End team. So we works together.',
-                technology: ['HTML', 'CSS', 'CSS3', 'Javascript', 'Gulp', 'ReactJS', 'VueJS', 'NuxtJS', 'GraphQL' ]
+                technology: ['HTML', 'CSS', 'CSS3', 'Javascript', 'Gulp', 'ReactJS', 'VueJS', 'NuxtJS', 'GatsByJS', 'GraphQL' ]
             },
             {
                 companyName: ThemeOnLabLogo,
