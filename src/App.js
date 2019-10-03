@@ -7,7 +7,7 @@ import './App.scss';
 import Haders from './components/Header';
 import Slider from './components/Slider';
 import AboutMe from './components/About'
-
+import JobExperience from './components/JobExperience'
 
 function App() {
   return (
@@ -23,6 +23,10 @@ function App() {
 
       <section className="about-me-section">
         <AboutMe />
+      </section>
+
+      <section className="jobExperienceSection">
+        <JobExperience />
       </section>
 
     </div>

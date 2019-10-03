@@ -1,0 +1,43 @@
+@import './common.scss';
+
+.jobExperienceSection{
+    background-color: #f8f9fa;
+    padding: 80px 0;
+
+    .jobExperienceWrapper{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 30px 30px;
+        border: 1px solid transparent;
+        transition: all .3s ease-in-out;
+        margin-bottom: 30px;
+
+        &:hover{
+            border-color: $primary-color;
+        }
+
+        &__header{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            &--companyLogo{
+                img{
+                    width: 200px;
+                }
+            }
+            &--stayDate{
+                p{
+                    margin-bottom: 0;
+                    margin-top: 0px;
+                }
+            }
+        }
+
+        &__info{
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
