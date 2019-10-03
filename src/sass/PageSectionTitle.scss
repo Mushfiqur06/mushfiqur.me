@@ -1,0 +1,19 @@
+@import './common.scss';
+
+.pageSectionTitleWrapper{
+    margin-bottom: 60px;
+
+    &__title{
+        font-weight: 700;
+        color: #212529;
+        text-transform: capitalize;
+    }
+
+    &__info{
+        b{
+            text-transform: capitalize;
+            color: #212529;
+            font-weight: 700;
+        }
+    }
+}
