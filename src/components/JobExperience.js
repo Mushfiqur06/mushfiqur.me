@@ -47,7 +47,7 @@ class JobExperience extends Component {
                     <Row>
                         {this.state.jobExperienceData.map((data, index) => {
                             return(
-                                <Col md={6}>
+                                <Col md={6} key={index}>
                                     <div className="jobExperienceWrapper">
                                         <div className="jobExperienceWrapper__header">
                                             <div className="jobExperienceWrapper__header--companyLogo">
