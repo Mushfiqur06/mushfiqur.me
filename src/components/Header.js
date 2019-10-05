@@ -51,14 +51,14 @@ class Header extends React.Component{
                                 duration={500}
                             
                             >Skills</Link>
-                            <Nav.Link 
+                            <Link 
                                 className="nav-link"
-                                to="home"
+                                to="educationSection"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
                                 duration={500}
-                            >Education</Nav.Link>
+                            >Education</Link>
                             <Link 
                                 className="nav-link hireMeBtn btnStyle"
                                 to="home"

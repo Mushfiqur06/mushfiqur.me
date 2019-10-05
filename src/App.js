@@ -52,7 +52,7 @@ class App extends Component {
           <Portfolio />
         </section>
 
-        <section className="educationSection">
+        <section className="educationSection" id="educationSection">
           <PageSectionTitle title={this.state.educationSectionTitle.title} info={this.state.educationSectionTitle.info} />
 
           <Education />
