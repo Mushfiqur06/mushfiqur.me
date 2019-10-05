@@ -23,7 +23,7 @@ class App extends Component {
   }
   render (){
     return (
-      <div className="App">
+      <div className="App" id="home">
 
         <header className="header">
           <Header />
@@ -33,16 +33,16 @@ class App extends Component {
           <Slider />
         </section>
 
-        <section className="about-me-section">
+        <section id="aboutMeSection" className="about-me-section">
           <AboutMe />
         </section>
 
-        <section className="jobExperienceSection">
+        <section className="jobExperienceSection" id="jobExperienceSection">
           <PageSectionTitle title={this.state.jobExperienceSection.title} info={this.state.jobExperienceSection.info} />
           <JobExperience />
         </section>
 
-        <section className="portfolioSection">
+        <section className="portfolioSection" id="portfolioSection">
           <PageSectionTitle title={this.state.portfolioSectionTitle.title} info={this.state.portfolioSectionTitle.info} />
           <Portfolio />
         </section>

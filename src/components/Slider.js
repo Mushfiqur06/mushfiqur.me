@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import {Container} from 'react-bootstrap';
+import {Link, animateScroll as scroll} from 'react-scroll'
 import ArrowDonwImg from './../arrow-down.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Slider extends Component {
+
+
     render() { 
+        
         return (
             <div>
                 <div className="slider-riangle-up"></div>
@@ -23,9 +27,15 @@ class Slider extends Component {
                 </Container>
 
                 <div className="next-section-link solitude-bg text-center">
-                    <span className="scroll-to-target">
+                    <Link 
+                        to="aboutMeSection"
+                        className="scroll-to-target"
+                        spy={true}
+                        smooth={true}
+                		offset={0}
+                		duration={500}>
                         <img src={ArrowDonwImg} alt="" />
-                    </span>
+                    </Link>
                 </div>
             </div>
         );
