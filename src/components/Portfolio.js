@@ -1,34 +1,33 @@
 import React, { Component } from 'react';
 import {Container, Row, Col, Image, Button} from 'react-bootstrap'
 // PortfolioImage
-import PortfolioImageOne from './../probiz.jpg'
+import PortfolioImageTwo from './../Healthnor-thumb.jpg';
+import PortfolioImageThree from './../consulex-wp-thumb.jpg'
+import PortfolioImageFour from './../evenement-thumb.jpg';
+import PortfolioImageFive from './../Max_Rank_Thumb.jpg'
 
 class Portfolio extends Component {
     state = {
         portfolio: [
             {
-                img: PortfolioImageOne,
-                title: 'Probiz - responsive business html template'
+                img: PortfolioImageFour,
+                title: 'Evenement',
+                info: 'Create Your Next Conference and Event Websites'
             },
             {
-                img: PortfolioImageOne,
-                title: 'Probiz - responsive business html template'
+                img: PortfolioImageFive,
+                title: 'Max Rank',
+                info: 'WordPress SEO And Digital Marketing Theme'
             },
             {
-                img: PortfolioImageOne,
-                title: 'Probiz - responsive business html template'
+                img: PortfolioImageTwo,
+                title: 'Healthnor',
+                info: 'WordPress Theme For Doctors, Health, And Clinics'
             },
             {
-                img: PortfolioImageOne,
-                title: 'Probiz - responsive business html template'
-            },
-            {
-                img: PortfolioImageOne,
-                title: 'Probiz - responsive business html template'
-            },
-            {
-                img: PortfolioImageOne,
-                title: 'Probiz - responsive business html template'
+                img: PortfolioImageThree,
+                title: 'Consulex',
+                info: 'Finance and Consulting Business WordPress Theme'
             }
         ]
     }
@@ -39,7 +38,7 @@ class Portfolio extends Component {
                     <Row>
                         {this.state.portfolio.map((portfolio, index) => {
                             return (
-                                <Col lg={4} md={6} key={index}>
+                                <Col lg={6} md={6} key={index}>
                                     <div className="portfolioWrapper">
                                         <div className="portfolioWrapper__img">
                                             <Image src={portfolio.img} />
@@ -47,6 +46,7 @@ class Portfolio extends Component {
                                         <div className="portfolioWrapper__body text-center">
                                             <div className="portfolioWrapper__body--info">
                                                 <h3>{portfolio.title}</h3>
+                                                <p>{portfolio.info}</p>
                                                 <div className="portfolioWrapper__body--info--btns">
                                                     <a>Details</a>
                                                     <a>Demo</a>
@@ -57,6 +57,8 @@ class Portfolio extends Component {
                                 </Col>
                             )
                         })}
+
+                        <Button className="morePortfolioBtn">More Portfolio</Button>
                     </Row>
                 </Container>
             </div>

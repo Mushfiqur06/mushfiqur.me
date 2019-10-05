@@ -18,7 +18,7 @@ class App extends Component {
     },
     portfolioSectionTitle: {
       title: 'My Portfolio',
-      info: 'Here is my some Portfolio. If you show all Portfolio then you can click More Portfolio Button'
+      info: 'Here is my Portfolio List. If you show all Portfolio then Just click More Portfolio Button'
     }
   }
   render (){
