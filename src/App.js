@@ -7,7 +7,8 @@ import './App.scss';
 import Haders from './components/Header';
 import Slider from './components/Slider';
 import AboutMe from './components/About'
-import JobExperience from './components/JobExperience'
+import JobExperience from './components/JobExperience';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
 
       <section className="jobExperienceSection">
         <JobExperience />
+      </section>
+
+      <section className="portfolioSection">
+        <Portfolio />
       </section>
 
     </div>
