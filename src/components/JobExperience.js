@@ -41,7 +41,6 @@ class JobExperience extends Component {
     render() { 
         return (
             <div>
-                <PageSectionTitle />
 
                 <Container>
                     <Row>

@@ -23,7 +23,7 @@ class App extends Component {
     },
     educationSectionTitle: {
       title: 'Education',
-      info: 'If you are looking for a dope free barber shop website template,'
+      info: 'I was Trained on Javascript & Fullstack from different institution'
     }
   }
   render (){

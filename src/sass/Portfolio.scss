@@ -57,7 +57,7 @@
                         font-family: 'PT Sans', sans-serif;
                         display: inline-block;
                         background-color: $primary-color;
-                        color: #fff;
+                        color: #fff !important;
                         padding: 7px 30px;
                         text-transform: capitalize;
                         margin: 20px 8px;
@@ -91,7 +91,7 @@
     font-family: 'PT Sans', sans-serif;
     display: inline-block;
     background-color: $primary-color;
-    color: #fff;
+    color: #fff !important;
     padding: 7px 30px;
     border: 0;
     text-transform: capitalize;
