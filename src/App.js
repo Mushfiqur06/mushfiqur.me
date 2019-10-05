@@ -17,7 +17,7 @@ class App extends Component {
       info: 'I have 4 years job experience as a professional Front-End Developer'
     },
     portfolioSectionTitle: {
-      title: 'Portfolio',
+      title: 'My Portfolio',
       info: 'Here is my some Portfolio. If you show all Portfolio then you can click More Portfolio Button'
     }
   }

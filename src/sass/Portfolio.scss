@@ -1,1 +1,84 @@
 @import './common.scss';
+
+.portfolioSection{
+    padding: 80px 0;
+
+    .portfolioWrapper{
+        position: relative;
+        overflow: hidden;
+        display: block;
+        margin-bottom: 30px;
+        box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+        
+        &__img{
+            
+            img{
+                width: 100%;
+                transform: translateX(0%);
+                -ms-transform: translateX(0%);
+                -webkit-transform: translateX(0%);
+                width: 100%;
+                transition: all 0.5s ease-in-out 0s;
+                -moz-transition: all 0.5s ease-in-out 0s;
+                -webkit-transition: all 0.5s ease-in-out 0s;
+                -o-transition: all 0.5s ease-in-out 0s;
+            }
+        }
+
+        &__body{
+            background: none repeat scroll 0 0 #242a35;
+            position: absolute;
+            transition: all 0.5s ease-in-out 0s;
+            -moz-transition: all 0.5s ease-in-out 0s;
+            -webkit-transition: all 0.5s ease-in-out 0s;
+            -o-transition: all 0.5s ease-in-out 0s;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            visibility: hidden;
+            overflow: hidden;
+            transform: translateX(-100%);
+
+
+            &--info{
+                padding-top: 25px;
+                h3{
+                    color: #fff;
+                    font-size: 20px;
+                }
+
+                &--btns{
+                    a{
+                        font-family: 'PT Sans', sans-serif;
+                        display: inline-block;
+                        background-color: #02d766;
+                        color: #fff;
+                        padding: 7px 30px;
+                        text-transform: capitalize;
+                        margin: 20px 8px;
+                        border-radius: 5px;
+                        transition: all .3s ease-in-out;
+                        transform: translateX(0);
+
+                        &:hover{
+                            transform: translateY(-5px);
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.portfolioWrapper:hover .portfolioWrapper__body{
+    transform: translateX(0%);
+    visibility: visible;
+}
+
+.portfolioWrapper:hover .portfolioWrapper__img img{
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%;
+}
