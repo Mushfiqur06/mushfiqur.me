@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Image, Button} from 'react-bootstrap'
+import {Container, Row, Col, Image} from 'react-bootstrap'
 // PortfolioImage
 import PortfolioImageTwo from './../Healthnor-thumb.jpg';
 import PortfolioImageThree from './../consulex-wp-thumb.jpg'
@@ -58,7 +58,7 @@ class Portfolio extends Component {
                             )
                         })}
 
-                        <Button className="morePortfolioBtn">More Portfolio</Button>
+                        <button className="morePortfolioBtn">More Portfolio</button>
                     </Row>
                 </Container>
             </div>
