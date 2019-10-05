@@ -8,7 +8,8 @@ import Slider from './components/Slider';
 import AboutMe from './components/About'
 import JobExperience from './components/JobExperience';
 import Portfolio from './components/Portfolio';
-import PageSectionTitle from './components/PageSectionTitle'
+import PageSectionTitle from './components/PageSectionTitle';
+import Education from './components/Education'
 
 class App extends Component {
   state = {
@@ -19,6 +20,10 @@ class App extends Component {
     portfolioSectionTitle: {
       title: 'My Portfolio',
       info: 'Here is my Portfolio List. If you show all Portfolio then Just click More Portfolio Button'
+    },
+    educationSectionTitle: {
+      title: 'Education',
+      info: 'If you are looking for a dope free barber shop website template,'
     }
   }
   render (){
@@ -45,6 +50,12 @@ class App extends Component {
         <section className="portfolioSection" id="portfolioSection">
           <PageSectionTitle title={this.state.portfolioSectionTitle.title} info={this.state.portfolioSectionTitle.info} />
           <Portfolio />
+        </section>
+
+        <section className="educationSection">
+          <PageSectionTitle title={this.state.educationSectionTitle.title} info={this.state.educationSectionTitle.info} />
+
+          <Education />
         </section>
 
       </div>
