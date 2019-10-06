@@ -33,7 +33,7 @@ class App extends Component {
     },
     contact: {
       title: 'Get touch with me',
-      info: 'Have any query or Project Idea you can Contact with me'
+      info: 'Have any query or Project Idea then you can Contact with me'
     }
   }
   render (){
@@ -75,6 +75,7 @@ class App extends Component {
 
         <section className="contactSection" id="contactSection">
           <PageSectionTitle title={this.state.contact.title} info={this.state.contact.info} />
+          <Contact />
         </section>
 
       </div>
