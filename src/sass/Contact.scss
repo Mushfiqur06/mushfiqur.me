@@ -3,4 +3,42 @@
 .contactSection{
     padding: 80px 0;
     background-color: #f8f9fa;
+
+    .contactFormWrapper{
+        width: 100%;
+
+        .form-control{
+            height: 50px;
+            font-size: 14px;
+
+            &:focus{
+                box-shadow: none;
+                border-color: $primary-color
+            }
+        }
+        .textarea{
+            height: 300px;
+            resize: none;
+        }
+
+        .submitBtn{
+            button{
+                background-color: $primary-color;
+                color: $while-color;
+                margin-left: 15px;
+                padding: 7px 25px;
+                border-radius: 5px;
+                border: 0;
+
+                &:focus{
+                    box-shadow: none;
+                    background-color: $secondary-color;
+                }
+
+                &:hover{
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
 }
