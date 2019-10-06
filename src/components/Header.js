@@ -44,7 +44,7 @@ class Header extends React.Component{
                             >Portfolio</Link>
                             <Link 
                                 className="nav-link"
-                                to="home"
+                                to="skillSection"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
