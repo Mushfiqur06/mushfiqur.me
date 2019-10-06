@@ -13,7 +13,7 @@ import {
     faLinkedin,
     faSkype
 } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import {faFile } from '@fortawesome/free-regular-svg-icons'
 library.add(
     fab, 
@@ -24,7 +24,8 @@ library.add(
     faTwitterSquare,
     faFacebookSquare,
     faLinkedin,
-    faSkype
+    faSkype,
+    faAngleDoubleRight
 )
 
 ReactDOM.render(<App />, document.getElementById('root'));
