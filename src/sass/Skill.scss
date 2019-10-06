@@ -1,5 +1,35 @@
 @import './common.scss';
 
-.educationSection{
+.skillSection{
     padding: 80px 0;
+    background-color: #f8f9fa;
+
+    .skillWrapper{
+        margin-bottom: 30px;
+        &__title{
+            color: $secondary-color;
+
+            h3{
+                font-weight: 700;
+            }
+        }
+
+        &__skillList{
+            &--item{
+                color: $while-color;
+                display: inline-block;
+                background-color: $primary-color;
+                padding: 4px 18px;
+                border-radius: 20px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                text-transform: uppercase;
+                transition: all .3s ease-in-out;
+
+                &:hover{
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
 }
