@@ -10,7 +10,8 @@ import JobExperience from './components/JobExperience';
 import Portfolio from './components/Portfolio';
 import PageSectionTitle from './components/PageSectionTitle';
 import Education from './components/Education';
-import Skill from './components/Skill'
+import Skill from './components/Skill';
+import Contact from './components/Contact'
 
 class App extends Component {
   state = {
@@ -29,6 +30,10 @@ class App extends Component {
     skill: {
       title: 'My Skills',
       info: 'Here is my Front-End & Back-End Skill. Already i am working those technology'
+    },
+    contact: {
+      title: 'Get touch with me',
+      info: 'Have any query or Project Idea you can Contact with me'
     }
   }
   render (){
@@ -66,6 +71,10 @@ class App extends Component {
           <PageSectionTitle title={this.state.educationSectionTitle.title} info={this.state.educationSectionTitle.info} />
 
           <Education />
+        </section>
+
+        <section className="contactSection" id="contactSection">
+          <PageSectionTitle title={this.state.contact.title} info={this.state.contact.info} />
         </section>
 
       </div>
