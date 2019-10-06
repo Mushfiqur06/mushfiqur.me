@@ -2,7 +2,7 @@
 
 .educationSection{
     padding: 80px 0;
-    background-color: #f8f9fa;
+    background-color: $while-color;
 
     .accordingWrapper{
         &__card{
@@ -11,6 +11,7 @@
             border-color: $secondary-color;
             border-bottom: 1px solid $secondary-color !important;
             margin-left: 1px;
+            margin-top: 1px;
 
             &--header{
                 background-color: $secondary-color;
