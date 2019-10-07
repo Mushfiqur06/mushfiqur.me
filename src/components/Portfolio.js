@@ -38,7 +38,7 @@ class Portfolio extends Component {
                     <Row>
                         {this.state.portfolio.map((portfolio, index) => {
                             return (
-                                <Col lg={6} md={6} key={index}>
+                                <Col lg={6} md={12} key={index}>
                                     <div className="portfolioWrapper">
                                         <div className="portfolioWrapper__img">
                                             <Image src={portfolio.img} />
