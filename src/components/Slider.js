@@ -20,7 +20,7 @@ class Slider extends Component {
                             <span className="hero-intro-greeting">Hello, I am</span>
                             <h1>Mushfiqur Rahman niloy</h1>
                             <h4>Senior Front End Developer <span>At Zenix Technology</span></h4>
-                            <a className="hireBtn" href="#"><FontAwesomeIcon icon={['fab', 'github-square']} /> Visit Github</a>
+                            <a className="hireBtn" href="https://github.com/Mushfiqur06"><FontAwesomeIcon icon={['fab', 'github-square']} /> Visit Github</a>
                             <a className="resumeBtn" href="#"><FontAwesomeIcon icon={['far', 'file']} /> Download Resume</a>
                         </div>
                     </div>
