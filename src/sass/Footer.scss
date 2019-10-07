@@ -1,0 +1,14 @@
+@import './common.scss';
+
+.footerSection{
+    background-color: $secondary-color;
+
+    .footerWrapper{
+        p{
+            margin-bottom: 0;
+            color: #fff;
+            padding: 10px 0;
+            text-transform: capitalize;
+        }
+    }
+}
