@@ -12,7 +12,7 @@ class Skill extends Component {
                         <Col sm={12}>
                             <div className="skillWrapper">
                                 <div className="skillWrapper__title">
-                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skill of Front-End</h3>
+                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skills of Front-End</h3>
                                 </div>
                                 <div className="skillWrapper__skillList">
                                     <span className="skillWrapper__skillList--item">HTML</span>
@@ -32,7 +32,7 @@ class Skill extends Component {
 
                             <div className="skillWrapper">
                                 <div className="skillWrapper__title">
-                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skill of Back-End</h3>
+                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skills of Back-End</h3>
                                 </div>
                                 <div className="skillWrapper__skillList">
                                     <span className="skillWrapper__skillList--item">WordPress Theme Customization</span>
@@ -42,7 +42,7 @@ class Skill extends Component {
 
                             <div className="skillWrapper">
                                 <div className="skillWrapper__title">
-                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skill of Design</h3>
+                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skills of Design</h3>
                                 </div>
                                 <div className="skillWrapper__skillList">
                                     <span className="skillWrapper__skillList--item">Adobe Photoshop</span>
@@ -53,7 +53,7 @@ class Skill extends Component {
 
                             <div className="skillWrapper">
                                 <div className="skillWrapper__title">
-                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skill of OS (Operating System )</h3>
+                                    <h3><FontAwesomeIcon icon={['fas', 'angle-double-right']} /> Skills of OS (Operating System )</h3>
                                 </div>
                                 <div className="skillWrapper__skillList">
                                     <span className="skillWrapper__skillList--item">Linux (Arch Linux & Ubuntu)</span>
