@@ -11,7 +11,8 @@ import Portfolio from './components/Portfolio';
 import PageSectionTitle from './components/PageSectionTitle';
 import Education from './components/Education';
 import Skill from './components/Skill';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import Footer from './components/Footer'
 
 class App extends Component {
   state = {
@@ -77,6 +78,10 @@ class App extends Component {
           <PageSectionTitle title={this.state.contact.title} info={this.state.contact.info} />
           <Contact />
         </section>
+
+        <footer className="footerSection">
+          <Footer />
+        </footer>
 
       </div>
     );
