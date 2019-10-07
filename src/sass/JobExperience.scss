@@ -54,3 +54,8 @@
         }
     }
 }
+@media only screen and (max-width: 767px) {
+    .jobExperienceWrapper__header{
+        display: block !important;
+    }
+}
