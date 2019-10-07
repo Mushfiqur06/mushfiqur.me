@@ -172,3 +172,60 @@
         opacity: 0
     }
 }
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .slider-section .hero-section .hero-content h1{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .slider-section {
+        .hero-section{
+            .hero-content{
+                span{
+                    top: -45px !important;
+                    padding: 5px 15px !important;
+                    font-size: 15px !important;
+                }
+                h1{
+                    font-size: 40px;
+                }
+                h4{
+                    font-size: 17px;
+
+                    span{
+                        font-size: 16px;
+                    }
+                }
+                a{
+                    padding: 7px 20px;
+                }
+            }
+        }
+    }
+      
+}
+
+@media only screen and (max-width: 500px){
+    .slider-section {
+        .hero-section{
+            .hero-content{
+                h1{
+                    font-size: 30px;
+                }
+                h4{
+                    font-size: 14px;
+
+                    span{
+                        font-size: 14px;
+                    }
+                }
+                a{
+                    padding: 7px 20px;
+                    margin: 10px 5px;
+                }
+            }
+        }
+    }
+}
